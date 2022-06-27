@@ -1,0 +1,175 @@
+conteudo CSS-3
+@import url('https://fonts.googleapis.com/css2? family= Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100; 1.200;1.300;1.400;1.500;1.600;1.700;1.800;1.900 & display=swap');
+
+
+body{
+    background-image: linear-gradient(to left, #A308FC,#530CF2 );
+    }
+    
+main{ font-family: "work sans", Helvetica, sans-serif;
+    width: 1000px;
+    height: 1000px;
+     background-color: rgba(236, 174, 99, 0.822);
+    /* background-image: linear-gradient(to left #B0F82A #F8BA2A); */
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+h1{
+    color: #fc481b;
+    background-color:#e6ae137a ;
+font-size: 2.5em;
+font-family: "work sans" sans-serif;
+font-weight: bolder;
+text-shadow: 1.5px 1.5px 1.5px black;
+}
+#principal{
+    text-align: center;
+    color: blue;
+    background-color: #D99F29;
+    font-size: 3em;
+    font-family: serif;
+    font-weight: bolder;
+    text-decoration: underline;
+    text-shadow: 1.5px 1.5px 1.5px black;
+}
+hr{color: #A308FC;}
+h2{
+    font-size: 2em;
+    color: blue;
+}
+h3{
+    color: #A308FC;
+}
+p{
+    font-weight: bolder;
+}
+div{
+    /* display: inline-block; */
+    text-align: left;
+    border:1px solid black;
+    height: 40px;
+    width: 150px;
+    background-color: #fc481b;
+    
+   display:inline-flex;
+  
+    
+}
+div > li{
+    display: none;
+    font-weight: "bolder";
+}
+div:hover >li{
+    display: block;
+}
+div:hover{
+     color:#fc481b; 
+}
+div:hover{
+    background-color: #530CF2;
+    transition: 0.3s;
+}
+
+.mundo{
+    font-size: 14px;
+}
+.cadastro{
+    display: inline-block;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    background-color: blue;
+     height: 20px;
+}
+.login{
+display: inline-block;
+font-size: 16px;
+text-align: center;
+cursor: pointer;
+background-color: blue;
+transition: 00.3s;
+  height: 20px;
+}
+
+.cadastro:hover{ background-color: #fc481b;
+    transition: 0.3s;
+}
+.cadastro:hover{
+    color: black;
+    text-shadow: none;
+    height: 30px;
+}
+.login:hover{
+    background-color: #fc481b;
+    transition: 0.3s;
+  
+}
+.login:hover{
+    text-shadow: none;
+color: black;
+height: 30px;
+}
+.boxin{
+    position: fixed "rigth";
+}
+
+///////////////CONTEUDO HTML HEADER////////////
+  <ol class="boxin">
+                <div class="login">
+                    login
+                </div>
+             
+            
+                <div        class="cadastro">                    cadastre-se
+
+                </div>
+            </ol>
+        
+            
+        </h1>
+            <div class="iguais">
+                preço do dolar
+                <li>
+                    <p> dolar</p>
+                    <p> dolar</p>
+             </div>
+                </li>
+            <div class="iguais">
+              conversor de moeda <br>
+                <li>
+                    <p>converter </p>
+                    <p>converter </p>
+                </li>
+            </div>
+            <div class="iguais">
+               bolsa de valor 
+                <li>
+                    <p>bolsa</p>
+                    
+                    <p>bolsa</p>
+                </li>
+            </div>
+           <div class="iguais">
+            preco do petroleo
+            <li>
+                <p>tpetroleo</p>
+                    <p>petroleo</p>
+            </li>
+        </div>
+        <div class="iguais">  brasil
+            <li>
+              
+                <p>brasil</p>
+                <p>brasil</p>
+            </li>
+        </div>
+        <div class="mundo class="iguais""> ultimas noticias -mundo
+            <li>
+                <p> mundo </p>
+                <p> mundo</p>
+            </li>
+        </div>
+            
+        <br>  <br> 
