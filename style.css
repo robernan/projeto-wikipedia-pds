@@ -2,8 +2,8 @@
 
 
 *{
-    padding: 0pxpx;
-    margin-top: 0px;
+    /* padding: 0px;
+    margin-top: 0px; */
     font-family: Arial, Helvetica, sans-serif;
 }
 body{
@@ -14,14 +14,13 @@ main{
     min-width: 500px;
     background-color:white ;
     margin: auto;
-    
-    font-size: 1.5em;
+     font-size: 1.3em;
     padding: 10px;
-}
+} 
 
 header{
     color: white;
-    background-color: #744c3f;
+    background-color: #744c3f; 
     padding: 10px;
 }
 header > h1{
@@ -34,7 +33,7 @@ header > h1{
 header, h1, nav{
     position: sticky;
     top: -5px;
-    background-color: #744c3f;
+   
 }
 p .ba{
     color: red;
